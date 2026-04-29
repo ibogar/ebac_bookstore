@@ -58,6 +58,7 @@ COPY . .
 RUN poetry install
 
 WORKDIR /app
+COPY . /app/
 
 EXPOSE 8000
 
