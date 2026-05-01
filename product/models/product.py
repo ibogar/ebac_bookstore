@@ -2,6 +2,7 @@ from django.db import models
 
 from product.models import Category
 
+
 # Create your models here.
 class Product(models.Model):
     title = models.CharField(max_length=100)
