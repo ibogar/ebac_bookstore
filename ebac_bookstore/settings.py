@@ -50,7 +50,7 @@ ROOT_URLCONF = "ebac_bookstore.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [os.path.join(BASE_DIR, "ebac_bookstore", "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
